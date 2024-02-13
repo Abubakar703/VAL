@@ -10,7 +10,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
   responseElement.style.color = 'red'; // Set text color to red
 });
 // Target date
-const targetDate = new Date('February 17, 2024 00:00:00').getTime();
+const targetDate = new Date('March 1, 2024 00:00:00').getTime();
 
 // Update the countdown every second
 const countdown = setInterval(() => {
